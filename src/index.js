@@ -9,4 +9,4 @@ app.use(bodyParser.urlencoded({ extended: false }));
 require('./shared/controller/auth/authController')(app);
 
 
-app.listen(8888);
+app.listen(3000);
